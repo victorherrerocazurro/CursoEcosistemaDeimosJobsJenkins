@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-run plugin="matrix-project@1.7.1">
+  <actions>
+    <hudson.matrix.MatrixConfiguration_-ParentBuildAction/>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>Multiconfiguracion</upstreamProject>
+            <upstreamUrl>job/Multiconfiguracion/</upstreamUrl>
+            <upstreamBuild>1</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>3</queueId>
+  <timestamp>1477639166223</timestamp>
+  <startTime>1477639343815</startTime>
+  <result>SUCCESS</result>
+  <duration>560</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn>Secundario</builtOn>
+  <workspace>c:\secundario\workspace\Multiconfiguracion\Perfil\QA\jdk\JDK8\label\IT</workspace>
+  <hudsonVersion>2.19.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</matrix-run>

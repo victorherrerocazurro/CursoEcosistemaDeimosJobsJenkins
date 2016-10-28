@@ -1,0 +1,42 @@
+Started by an SCM change
+Building in workspace C:\Users\curso\.jenkins\workspace\ProyectoFinal-IT
+[WS-CLEANUP] Deleting project workspace...
+Cloning the remote Git repository
+Cloning repository https://github.com/victorherrerocazurro/ProyectoFinal
+ > git.exe init C:\Users\curso\.jenkins\workspace\ProyectoFinal-IT # timeout=10
+Fetching upstream changes from https://github.com/victorherrerocazurro/ProyectoFinal
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/victorherrerocazurro/ProyectoFinal +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/victorherrerocazurro/ProyectoFinal # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/victorherrerocazurro/ProyectoFinal # timeout=10
+Fetching upstream changes from https://github.com/victorherrerocazurro/ProyectoFinal
+ > git.exe fetch --tags --progress https://github.com/victorherrerocazurro/ProyectoFinal +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision acb2d1be1598d719120c84aefa5c9703accd8e70 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f acb2d1be1598d719120c84aefa5c9703accd8e70
+First time build. Skipping changelog.
+Parsing POMs
+ERROR: Failed to parse POMs
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0morg.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.jacoco:jacoco-maven-plugin @ line 239, column 12
+[ERROR] 'profiles.profile[IT].plugins.plugin[org.codehaus.cargo:cargo-maven2-plugin].executions.execution.id' must be unique but found duplicate execution with id default @ line 61, column 19
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:364)
+	at hudson.maven.MavenEmbedder.buildProjects(MavenEmbedder.java:361)
+	at hudson.maven.MavenEmbedder.readProjects(MavenEmbedder.java:331)
+	at hudson.maven.MavenModuleSetBuild$PomParser.invoke(MavenModuleSetBuild.java:1321)
+	at hudson.maven.MavenModuleSetBuild$PomParser.invoke(MavenModuleSetBuild.java:1118)
+	at hudson.FilePath.act(FilePath.java:1018)
+	at hudson.FilePath.act(FilePath.java:996)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.parsePoms(MavenModuleSetBuild.java:980)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:692)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:534)
+	at hudson.model.Run.execute(Run.java:1720)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:544)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:404)
+Archiving artifacts
+Finished: FAILURE

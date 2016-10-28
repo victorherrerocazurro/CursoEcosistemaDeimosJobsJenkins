@@ -1,0 +1,8 @@
+[EjemploPipeline] Running batch script
+
+C:\Users\curso\.jenkins\workspace\EjemploPipeline>"C:\Users\curso\Ecosistema\apache-maven-3.3.9\bin\mvn" -Dmaven.test.failure.ignore clean package 
+
+Error: JAVA_HOME not found in your environment. 
+Please set the JAVA_HOME variable in your environment to match the 
+location of your Java installation. 
+

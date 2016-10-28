@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-build plugin="matrix-project@1.7.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>5</queueId>
+  <timestamp>1477639354819</timestamp>
+  <startTime>1477639354824</startTime>
+  <result>SUCCESS</result>
+  <duration>2558</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\curso\.jenkins\workspace\Multiconfiguracion</workspace>
+  <hudsonVersion>2.19.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <axes>
+    <hudson.matrix.JDKAxis>
+      <name>jdk</name>
+      <values>
+        <string>JDK8</string>
+      </values>
+    </hudson.matrix.JDKAxis>
+    <hudson.matrix.LabelAxis>
+      <name>label</name>
+      <values>
+        <string>Secundario</string>
+        <string>master</string>
+      </values>
+    </hudson.matrix.LabelAxis>
+    <hudson.matrix.TextAxis>
+      <name>Perfil</name>
+      <values>
+        <string>QA</string>
+        <string>IT</string>
+        <string>UT</string>
+      </values>
+    </hudson.matrix.TextAxis>
+  </axes>
+</matrix-build>

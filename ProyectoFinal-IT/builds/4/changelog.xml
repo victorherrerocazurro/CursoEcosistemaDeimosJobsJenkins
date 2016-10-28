@@ -1,0 +1,13 @@
+commit b91baa2fa388147dec30a5953738df74ab487adc
+tree 85922d60bfe5a4ec9f692c601e3588a79e6796cc
+parent cd84c42d9724deb0a31157733ab81a46bdeb3cae
+author curso curso <curso@deimos-space.com> 2016-10-27 12:45:48 +0200
+committer curso curso <curso@deimos-space.com> 2016-10-27 12:45:48 +0200
+
+    Commit
+
+
+
+:100644 100644 475bf878d0425b6b275c9c4ae316a0f3849c7fb5 637deb32fa2f7f93ac789aa332b27b1c02a26d7a M	pom.xml
+:100644 100644 ce7617ae9fca9c08e4bcd48feb5c36ce61b484af 527a37d204f768caca00c2e7e1f61b881f6c601d M	target/m2e-wtp/web-resources/META-INF/maven/com.deimos/ProyectoFinal/pom.properties
+:100644 100644 475bf878d0425b6b275c9c4ae316a0f3849c7fb5 637deb32fa2f7f93ac789aa332b27b1c02a26d7a M	target/m2e-wtp/web-resources/META-INF/maven/com.deimos/ProyectoFinal/pom.xml

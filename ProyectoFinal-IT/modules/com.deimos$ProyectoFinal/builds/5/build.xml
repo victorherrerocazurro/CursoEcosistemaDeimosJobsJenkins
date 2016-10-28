@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.14">
+  <actions/>
+  <queueId>-1</queueId>
+  <timestamp>1477566073968</timestamp>
+  <startTime>1477566078758</startTime>
+  <result>NOT_BUILT</result>
+  <duration>3</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\curso\.jenkins\workspace\ProyectoFinal-IT</workspace>
+</hudson.maven.MavenBuild>

@@ -1,0 +1,8 @@
+Started on 28-oct-2016 11:21:01
+Using strategy: Default
+[poll] Last Built Revision: Revision 8289540edce4b1f951a8eb45a291ca0f83080a3e (refs/remotes/origin/master)
+ > git.exe ls-remote -h https://github.com/victorherrerocazurro/ProyectoFinal # timeout=10
+Found 1 remote heads on https://github.com/victorherrerocazurro/ProyectoFinal
+[poll] Latest remote head revision on refs/heads/master is: 24543905ca9c2c6e1f907d79acfa273bb17c4602
+Done. Took 0,95 sec
+Changes found
